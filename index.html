@@ -3,28 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>pH ScaLE</title>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/test.css">
+    <title>Dev folio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <h1>pH scale</h1>
-    <p> =============================</p>
-    <p class="fourteen">14.0 Very Alkaline</p>
-    <p class="thirteen">13.0</p>
-    <p class="twelve">12.0</p>
-    <p class="eleven">11.0</p>
-    <p class="ten">10.0</p>
-    <p class="nine">9.0</p>
-    <p class="eight">8.0</p>
-    <p class="seven">7.0 Neutral</p>
-    <p class="six">6.0</p>
-    <p class="five">5.0</p>
-    <p class="four">4.0</p>
-    <p class="three">3.0</p>
-    <p class="two">2.0</p>
-    <p class="one">1.0</p>
-    <p class="zero">0.0 very acidic</p>
+<body class="position-fixed d-flex flex-column text-white bg-red">
+    <header class="page-header">
+        <nav class="d-flex justify-content-between">
+            <a href="#" class="logo"><strong>Suzie</strong></a>
+            <ul class="d-flex">
+                <li><a href="#">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="position-absolute w-100 text-center heading"> FrontEnd web Developer || Entrepreneur</h1>
+    <a href="mailto: isiomasuzie@gmail.com" class="position-absolute contact">Get In Touch</a>
+    <section class="position-absolute d-flex align-items-center justify-content-center text-black bg-white skills-section"data-slideIn="to-top">
+        <button class="position-absolute skills-close" aria-label="Close Skills Section">X</button>
+        <div class=" d-flex chart-wrapper">
+            <ul class="chart-levels">
+                <li>Expert</li>
+                <li>Advanced</li>
+                <li>Intermediate</li>
+                <li>Beginner</li>
+                <li>Novice</li>
+            </ul>
+            <ul class="d-flex justify content-around align-items-end flex-grow-1 text-center bg-blackchart-skills">
+                
+                <li class="position-relative bg-red" data-height="80%">
+                    <span class="position-absolute w-100">CSS</span>
+                  </li>
+                  <li class="position-relative bg-red" data-height="60%">
+                    <span class="position-absolute w-100">HTML</span>
+                  </li>
+                  <li class="position-relative bg-red" data-height="68%">
+                    <span class="position-absolute w-100">JavaScript</span>
+                  </li>
+                  <li class="position-relative bg-red" data-height="52%">
+                    <span class="position-absolute w-100">Python</span>
+                  </li>
+                  <li class="position-relative bg-red" data-height="42%">
+                    <span class="position-absolute w-100">Ruby</span>
+                  </li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>
